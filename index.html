@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-32x32.png"> -->
+    <!-- <link rel="manifest" href="images/favicon/site.webmanifest"> -->
+    <!-- Iconify Script -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="theme-color" content="#225D7B"/>
+    <title>MS Autofill</title>
+    <meta name="description" content="2 Rupees MS Autofill">
+</head>
+<body>
+  <div class="container-fluid" id="main-page">
+    <div class="row h-100">
+      <div class="col-3 left-column">
+        <div class="container mt-5">
+          <div class="row py-4 bottom-border">
+            <div class="col-3 text-end"><img src="images/logo.png" alt=""></div>
+            <div class="col-9 fw-bold fs-3 my-auto">Microsoft Autofill</div>
+          </div>
+          <div class="row py-4 bottom-border">
+            <div class="col-3 text-end"><img src="images/formalfinal.jpg" alt="" class="rounded-circle img-fluid" style="object-fit: cover;"></div>
+            <div class="col-9 my-auto">
+              <span class="fw-bold">Rounak Das</span>
+              <br>rounakcr7das@gmail.com
+              <br><a href="#" style="color: #0078D4;">Sign Out</a>
+            </div>
+          </div>
+          <div class="row py-4 bottom-border">
+            <a href="passwords.html" class="text-dark text-decoration-none">
+              <div class="row">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="grommet-icons:key"></span></div>
+                <div class="col-10 fs-5">Passwords</div>
+              </div>
+            </a>
+            <a href="addresses.html" class="text-dark text-decoration-none">
+              <div class="row pt-2">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="akar-icons:location"></span></div>
+                <div class="col-10 fs-5">Addresses</div>
+              </div>
+            </a>
+            <a href="payments.html" class="text-dark text-decoration-none">
+              <div class="row pt-2">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="bi:credit-card"></span></div>
+                <div class="col-10 fs-5">Payments</div>
+              </div>
+            </a>
+            <a href="personalinfo.html" class="text-dark text-decoration-none">
+              <div class="row pt-2">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="akar-icons:person"></span></div>
+                <div class="col-10 fs-5">Personal Information</div>
+              </div>
+            </a>
+            <a href="security.html" class="text-dark text-decoration-none">
+              <div class="row pt-2">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="ic:baseline-security"></span></div>
+                <div class="col-10 fs-5">Security Centre</div>
+              </div>
+            </a>
+            <a href="legacycontacts.html" class="text-dark text-decoration-none">
+              <div class="row pt-2">
+                <div class="col-2 text-end fs-5 pe-0"><span class="iconify-inline" data-icon="cil:contact"></span></div>
+                <div class="col-10 fs-5">Legacy Contacts</div>
+              </div>
+            </a>
+          </div>
+          <a href="index.html" class="text-dark text-decoration-none">
+            <div class="row py-4">
+              <div class="col-1"></div>
+              <div class="col-1 text-end fs-5 pe-0 current-page"><span class="iconify-inline" data-icon="bytesize:settings"></span></div>
+              <div class="col-10 fs-5">Settings</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-7 ps-5 right-column">
+        <div class="container mt-5 pb-3 bottom-border">
+          <div class="row pt-4 fw-bold fs-3">Settings</div>
+          <div class="row py-3"></div>      <!-- divider -->
+          <div class="row py-3">
+            <div class="col-8 ps-0"><span class="fw-bold">Import Data</span><br>Import data from file.</div>
+            <div class="col-4 text-end"><button class="btn btn-outline-dark h-100 w-100">Choose what to import</button></div>
+          </div>
+          <div class="row py-3">
+            <div class="col-8 ps-0"><span class="fw-bold">Export Data</span><br>Export data from Microsoft Autofill to a CSV File.</div>
+            <div class="col-4 text-end"><button type="button" data-bs-toggle="modal" data-bs-target="#" class="btn btn-outline-dark h-100 w-100">Choose what to export</button></div>
+          </div>
+          <div class="row py-3">
+            <div class="col-8 ps-0"><span class="fw-bold">Clear Data</span><br>Clear saved data.</div>
+            <div class="col-4 text-end"><button type="button" data-bs-toggle="modal" data-bs-target="#clear-data" class="btn btn-outline-dark h-100 w-100">Choose what to clear</button></div>
+          </div>
+        </div>
+        <div class="container mt-3">
+          <div class="row py-3 fw-bold fs-5">
+            <div class="col-9 ps-0">About Microsoft Autofill</div>
+            <div class="col-3 text-end"><a href="#" class="text-dark"><span class="iconify-inline" data-icon="akar-icons:chevron-right"></span></a></div>
+          </div>
+          <div class="row py-3">
+            <div class="col-9 ps-0"><span class="fw-bold fs-5">Help improve Microsoft Autofill</span><br>Share optional usage data with Microsoft. This does not include saved data.</div>
+            <div class="col-3 text-end fs-1 my-auto"><span class="iconify-inline" style="color: #0078D4;" data-icon="entypo:switch"></span></div>
+          </div>
+          <div class="row pt-2 fw-bold fs-5">
+            <div class="col-9 ps-0">Send optional feedback.</div>
+            <div class="col-3 text-end"><a href="#" class="text-dark"><span class="iconify-inline" data-icon="akar-icons:chevron-right"></span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Clear Data Popup -->
+  <div class="modal fade" id="clear-data" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ps-3 fw-bold" id="staticBackdropLabel">Clear Data</h5>
+          <button type="button" class="btn-close pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <p>This will clear your data across all your synced devices signed in to rounakcr7das@gmail.com.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item py-3">
+                <div class="row">
+                  <div class="col-1 my-auto fs-5"><input class="form-check-input me-1" type="checkbox" value=""></div>
+                  <div class="col-10 my-auto"><span class="fw-bold">Passwords</span> <br> 72 passwords saved.</div>
+                  <div class="col-1 my-auto fs-3"><a href="passwords.html"><span class="iconify-inline text-dark" data-icon="akar-icons:chevron-right"></span></a></div>
+                </div>
+              </li>
+              <li class="list-group-item py-3">
+                <div class="row">
+                  <div class="col-1 my-auto fs-5"><input class="form-check-input me-1" type="checkbox" value=""></div>
+                  <div class="col-10 my-auto"><span class="fw-bold">Addresses</span> <br> 4 passwords saved.</div>
+                  <div class="col-1 my-auto fs-3"><a href="#"><span class="iconify-inline text-dark" data-icon="akar-icons:chevron-right"></span></a></div>
+                </div>
+              </li>
+              <li class="list-group-item py-3">
+                <div class="row">
+                  <div class="col-1 my-auto fs-5"><input class="form-check-input me-1" type="checkbox" value=""></div>
+                  <div class="col-10 my-auto"><span class="fw-bold">Payments</span> <br> 3 passwords saved.</div>
+                  <div class="col-1 my-auto fs-3"><a href="#"><span class="iconify-inline text-dark" data-icon="akar-icons:chevron-right"></span></a></div>
+                </div>
+              </li>
+              <li class="list-group-item py-3">
+                <div class="row">
+                  <div class="col-1 my-auto fs-5"><input class="form-check-input me-1" type="checkbox" value=""></div>
+                  <div class="col-10 my-auto"><span class="fw-bold">Personal Information</span> <br> 4 passwords saved.</div>
+                  <div class="col-1 my-auto fs-3"><a href="#"><span class="iconify-inline text-dark" data-icon="akar-icons:chevron-right"></span></a></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container text-center px-5 pt-2 pb-4">
+          <div class="row">
+            <div class="col-6">
+              <button type="button" class="btn btn-primary w-100 fw-bold">Clear Now</button>
+            </div>
+            <div class="col-6">
+              <button type="button" class="btn btn-outline-secondary w-100" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>

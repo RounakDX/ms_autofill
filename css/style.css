@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-page{
+    height: 100vh;
+}
+
+.left-column{
+    background-color: #f6f6f6;
+}
+
+.bottom-border{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2)
+}
+
+.current-page{
+    border-left: .25vw solid #0078D4;
+}
+
+.list-group-item{
+    border: none !important;
+}
